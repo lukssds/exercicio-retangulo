@@ -34,14 +34,13 @@ public class retangulo {
 		} 
 		
 		System.out.println("");
-		
 		System.out.println("Menu:");
 		System.out.println("1 - Mostrar area");
 		System.out.println("2 - Mostrar perimetro");
 		System.out.println("3 - Sair");
 		System.out.println("Digite uma opcao: ");
 		opcao=sc.nextInt();
-
+		
 		while (opcao !=3) {
 			
 			
@@ -69,6 +68,7 @@ public class retangulo {
 		}
 		
 			System.out.println("FIM DO PROGRMA!");
+			sc.close();
 		
 	}
 
